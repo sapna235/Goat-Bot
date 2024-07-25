@@ -286,7 +286,7 @@ if (config.autoRestart) {
 	const parentIdGoogleDrive = await utils.drive.checkAndCreateParentFolder("GoatBot");
 	utils.drive.parentID = parentIdGoogleDrive;
 	// ———————————————————— LOGIN ———————————————————— //
-	require(`./bot/login/login${NODE_ENV === 'development' ? '.js' : '.js'}`);
+	require(`./bot/login/login${NODE_ENV === 'development' ? '.dev.js' : '.js'}`);
 })();
 
 function compareVersion(version1, version2) {
