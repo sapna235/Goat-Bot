@@ -49,7 +49,7 @@ config: {
        };
 
        if ((event.body.toLowerCase() == "Jai shree Ram") || (event.body.toLowerCase() == "JAI SHREE RAM")) {
-         return api.sendMessage("🔱"🫶♡⤾🙏🏼🩷जय श्री ༢།म >𝟑♥🌍", threadID);
+         return api.sendMessage("🔱🫶♡⤾🙏🏼🩷जय श्री ༢།म >𝟑♥🌍", threadID);
        };
 
        if ((event.body.toLowerCase() == "Radhey Radhey") || (event.body.toLowerCase() == "Jai shree krishna")) {
