@@ -16,14 +16,14 @@ function convertFtoC(F) {
 	return Math.floor((F - 32) / 1.8);
 }
 function formatHours(hours) {
-	return moment(hours).tz("Asia/Ho_Chi_Minh").format("HH[h]mm[p]");
+	return moment(hours).tz("Asia/Kolkata").format("HH[h]mm[p]");
 }
 
 module.exports = {
 	config: {
 		name: "weather",
 		version: "1.2",
-		author: "NTKhang",
+		author: "karan jalvanshi",
 		countDown: 5,
 		role: 0,
 		description: {
