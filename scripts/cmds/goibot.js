@@ -24,7 +24,7 @@ config: {
   var idgr = `${event.threadID}`;
   var id = event.senderID;
 
-  var Messages = [""];
+  var Messages = ["/n"];
 
     var rand = Messages[Math.floor(Math.random() * Messages.length)]
     
