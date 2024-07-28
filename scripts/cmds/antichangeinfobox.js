@@ -2,7 +2,7 @@ const { getStreamFromURL, uploadImgbb } = global.utils;
 
 module.exports = {
 	config: {
-		name: "bachha",
+		name: "ladle",
 		version: "1.9",
 		author: "Karan jalvanshi",
 		countDown: 5,
@@ -50,18 +50,18 @@ module.exports = {
 			antiChangeAvatarOn: "Turn on anti change avatar box chat",
 			antiChangeAvatarOff: "Turn off anti change avatar box chat",
 			missingAvt: "You have not set avatar for box chat",
-			antiChangeNameOn: "Turn on anti change name box chat",
-			antiChangeNameOff: "Turn off anti change name box chat",
-			antiChangeNicknameOn: "Turn on anti change nickname box chat",
-			antiChangeNicknameOff: "Turn off anti change nickname box chat",
+			antiChangeNameOn: "GROUPP KEE PILOO TUMAHRE PITAJI NE NAME PE APNE AAND RKH DIYE H DUM H TO HTAKE NAME CHANGE KRO 😹💞",
+			antiChangeNameOff: "BAND BHI KAR DIYA SIR AUR KUCH HUKAM🫡🤍",
+			antiChangeNicknameOn: "TERI BHEN KI DARDNAK CHUDAI KAR DUNGA AGAR DUBARA NICKNAME CHANGE KARNE KI KOSIS KI TO TERE BAAP NE NICKNAME LOCK KIA HUA H ABHI MAA MAT CHUDA MERE SE 😈🥀",
+			antiChangeNicknameOff: "APKA HUKAM SAR ANKHO PE SIR KAR DIYA BAND😈🥀",
 			antiChangeThemeOn: "Turn on anti change theme box chat",
 			antiChangeThemeOff: "Turn off anti change theme box chat",
 			antiChangeEmojiOn: "Turn on anti change emoji box chat",
 			antiChangeEmojiOff: "Turn off anti change emoji box chat",
 			antiChangeAvatarAlreadyOn: "Your box chat is currently on anti change avatar",
 			antiChangeAvatarAlreadyOnButMissingAvt: "Your box chat is currently on anti change avatar but your box chat has not set avatar",
-			antiChangeNameAlreadyOn: "Your box chat is currently on anti change name",
-			antiChangeNicknameAlreadyOn: "Your box chat is currently on anti change nickname",
+			antiChangeNameAlreadyOn: "HUKUM APP BADAM KHAYA KARO APNE PHELE HI TATA KI MAA CHODNE KE LIE INTEZAM KAR RKHA H AAP DUBARA TATA KI MAA KO CHODOGE 🤭😂",
+			antiChangeNicknameAlreadyOn: "MALIK PHELE SE BAITHA HU ME YHA TENSION MAT LO AAO TATA KI MKC😫🖤 ",
 			antiChangeThemeAlreadyOn: "Your box chat is currently on anti change theme",
 			antiChangeEmojiAlreadyOn: "Your box chat is currently on anti change emoji"
 		}
