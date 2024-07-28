@@ -19,8 +19,8 @@ module.exports = {
 				+ "\n   {pn} theme [on | off]: chống đổi theme (chủ đề) box chat"
 				+ "\n   {pn} emoji [on | off]: chống đổi trạng emoji box chat",
 			en: "   {pn} avt [on | off]: anti change avatar box chat"
-				+ "\n   {pn} name [on | off]: anti change name box chat"
-				+ "\n   {pn} nickname [on | off]: anti change nickname in box chat"
+				+ "\n   {pn} name [on | off]: GROUPP KEE PILOO TUMAHRE PITAJI NE NAME PE APNE AAND RKH DIYE H DUM H TO HTAKE NAME CHANGE KRO 😹😂"
+				+ "\n   {pn} nickname [on | off]: GROUPP KEE PILOO TUMAHRE PITAJI NE NICK : NAME  PE APNE AAND RKH DIYE H DUM H TO HTAKE NAME CHANGE KRO 😹💞"
 				+ "\n   {pn} theme [on | off]: anti change theme (chủ đề) box chat"
 				+ "\n   {pn} emoji [on | off]: anti change emoji box chat"
 		}
