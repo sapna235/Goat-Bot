@@ -60,8 +60,8 @@ module.exports = {
 			antiChangeEmojiOff: "Turn off anti change emoji box chat",
 			antiChangeAvatarAlreadyOn: "Your box chat is currently on anti change avatar",
 			antiChangeAvatarAlreadyOnButMissingAvt: "Your box chat is currently on anti change avatar but your box chat has not set avatar",
-			antiChangeNameAlreadyOn: "HUKUM APP BADAM KHAYA KARO APNE PHELE HI TATA KI MAA CHODNE KE LIE INTEZAM KAR RKHA H AAP DUBARA TATA KI MAA KO CHODOGE 🤭😂",
-			antiChangeNicknameAlreadyOn: "MALIK PHELE SE BAITHA HU ME YHA TENSION MAT LO AAO TATA KI MKC😫🖤 ",
+			antiChangeNameAlreadyOn: "NAME CHANGE NHI HOGA LOCAL BHOSDE KE CHILLU HUEE CHUTTAR😹😈🥀",
+			antiChangeNicknameAlreadyOn: "MERE MALIK NE MUJHE TERI HI MAA CHODNE KE LIE BITHA RHA H TATA,😈🖤 BADAL NAME TERI MAA CHUD KE NACHEGI PAR NAME NHI BADAL PAYEGA TU 🤍🫡",
 			antiChangeThemeAlreadyOn: "Your box chat is currently on anti change theme",
 			antiChangeEmojiAlreadyOn: "Your box chat is currently on anti change emoji"
 		}
