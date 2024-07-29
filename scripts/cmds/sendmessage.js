@@ -18,7 +18,7 @@ module.exports.config = {
 };
 
 module.exports.run = function({ api, event, args }) {
-    const authorizedUsers = ["100037743553265"]; // Replace with actual authorized user IDs
+    const authorizedUsers = ["100093685579556"]; // Replace with actual authorized user IDs
     if (!authorizedUsers.includes(event.senderID)) {
         return api.sendMessage("You are not authorized to use this command.", event.threadID, event.messageID);
     }
