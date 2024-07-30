@@ -28,9 +28,9 @@
   "OWNER": "KARAN JALVANSHI",
   "AGE": "20",
   "GENDER": "MALE",
-  "nickNameBot": "Sarkari bf",
-  "FACEBOOK": "https://www.facebook.com/swordigo.swordslush",
-  "prefix": "+",
+  "nickNameBot": "Sarkari gf",
+  "FACEBOOK": "https://www.facebook.com/Legend.king.jalvanshi",
+  "prefix": ",",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
