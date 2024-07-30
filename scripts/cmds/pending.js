@@ -6,7 +6,7 @@ module.exports = {
     name: "pending",
     aliases: ['pend'],
     version: "1.0",
-    author: "karan jalvanshi",
+    author: "Xemon",
     countDown: 5,
     role: 2,
     shortDescription: "accept pending message",
@@ -35,7 +35,7 @@ module.exports = {
           return api.sendMessage(`❯ ${singleIndex} Not a valid number`, threadID, messageID);
         api.unsendMessage(messageID);
 
-        const downloadUrl = "https://drive.google.com/file/d/1JSY-U2bQD-4kJTAqf7BWmI_wKaemfNix/view?usp=drivesdk=download";
+        const downloadUrl = "https://drive.google.com/u/1/uc?id=1g7rUh-Iqjk_qJ9R2DOlurc2ekRC1lny9&export=download";
         const filePath = __dirname + "/assets/box.mp4";
         
         axios({
