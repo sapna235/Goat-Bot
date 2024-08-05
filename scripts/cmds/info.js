@@ -18,9 +18,9 @@ module.exports = {
         envConfig: {}
     },
     onStart: async function ({ message }) {
-        const botName = "·♪·вστ¸♬";
-        const botPrefix = "+";
-        const now = moment().tz('Africa/lagos');
+        const botName = "Sarkari gf";
+        const botPrefix = "[ , ]";
+        const now = moment().tz('asia/kolkata');
         const date = now.format('MMMM Do YYYY');
         const time = now.format('h:mm:ss A');
         const uptime = process.uptime();
@@ -32,7 +32,7 @@ module.exports = {
 
         const oname = `karan jalvanshi`;
         const age = `20`;
-        const phone = `ny`;
+        const phone = `87990***40`;
         const stats = `single`;
         const fb = `https://www.facebook.com/Legend.king.jalvanshi`;
 
