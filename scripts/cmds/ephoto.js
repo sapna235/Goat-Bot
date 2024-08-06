@@ -6,7 +6,7 @@ module.exports = {
   config: {
     name: "ephoto",
     version: "1.0",
-    author: "Karan jalvanshi",
+    author: "karan jalvanshi",
     role: 0,
     countDown: 5,
     shortDescription: {
@@ -31,7 +31,7 @@ module.exports = {
     }
     const isAuthorValid = await checkAuthor(module.exports.config.author);
     if (!isAuthorValid) {
-      await message.reply("Author changer alert! This command belongs to Vex_Kshitiz.");
+      await message.reply("Author changer alert! This command belongs to karan jalvanshi.");
       return;
     }
 
