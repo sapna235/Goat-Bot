@@ -1,6 +1,6 @@
 const axios = require("axios");
 const APIKEY = "V-GoatMart-Beta-xv4-Ibs8j-90-az7-V";
-const serverURL = "https://goatmart-apis.onrender.com";
+const serverURL = "https://goatmart-5vin.onrender.com";
 
 module.exports = {
   config: {
@@ -11,7 +11,7 @@ module.exports = {
       en: "View Items Available In The GoatMart."
     },
     category: "store",
-    author: "Karan jalvanshi | ©GoatMart",
+    author: "Karan | ©GoatMart",
   },
   onStart: async ({ api, event, args, message }) => {
     try {
