@@ -25,7 +25,7 @@ module.exports = {
 				bio: 'YE BOT BAS ENJOY KE LIYE BANAYA GAYA HAI SO AAP LOG ENJOY KAREN KOI BHI ISHU AATA HAI TO OWNER SE CONTACT KAREN TQ 😊'
 			};
 
-			const bold = 'https://i.imgur.com/SyBjkss.mp4';
+			const bold = 'https://i.imgur.com/Qu4ADBX.jpeg';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
