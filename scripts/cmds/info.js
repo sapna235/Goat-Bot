@@ -52,8 +52,8 @@ module.exports = {
 
         // Initialize link with a placeholder or handle properly based on your requirements
         const links = [
-            "https://i.imgur.com/uVBM67t.jpeg",
-            "https://i.imgur.com/NaxvRNg.jpeg"
+            "https://i.imgur.com/Qu4ADBX.jpeg",
+            "https://i.imgur.com/h0EtC6w.jpeg"
         ];
         const link = links[Math.floor(Math.random() * links.length)];
 
