@@ -1,50 +1,54 @@
-Command executed successfully:
-const fs = require("fs");
+const fs = require("fs-extra");
+const axios = require("axios");
+const path = require("path");
 
 module.exports = {
   config: {
-    name: "video2audio",
-    aliases: ["v2a"],
-    description: "Convert Video to audio ",
-    version: "1.2",
+    name: "v2a",
+    aliases: ["video2audio"],
+    description: "Convert a replied video to audio.",
+    version: "1.3",
     author: "karan jalvanshi",
     countDown: 60,
-   longDescription: {
-      vi: "tạo avatar anime",
-      en: "Reply to a video"
-     },
-    //shortDescription: "Create FB Banner",
-
-    category: "image",
+    longDescription: {
+      vi: "Chuyển đổi video thành âm thanh.",
+      en: "Convert a replied video to audio."
+    },
+    category: "utility",
     guide: {
+      vi: "{p}{n}",
       en: "{p}{n}"
     }
-
   },
-  onStart: async function ({ api, event, args, message }) {
+  onStart: async function ({ api, event }) {
+    const outputFileName = "converted_audio.m4a";
+    const outputFilePath = path.join(__dirname, "assets", outputFileName);
+    
     try {
-      const axios = require("axios");
-      const fs = require("fs-extra");
-
       if (!event.messageReply || !event.messageReply.attachments || event.messageReply.attachments.length === 0) {
         api.sendMessage("Please reply to a video message to convert it to audio.", event.threadID, event.messageID);
         return;
       }
 
-      const att = event.messageReply.attachments[0];
-      if (att.type !== "video") {
+      const attachment = event.messageReply.attachments[0];
+      if (attachment.type !== "video") {
         api.sendMessage("The replied content must be a video.", event.threadID, event.messageID);
         return;
       }
 
-      const { data } = await axios.get(att.url, { method: 'GET', responseType: 'arraybuffer' });
-      fs.writeFileSync(__dirname + "/assets/vdtoau.m4a", Buffer.from(data, 'utf-8'));
+      api.sendMessage("Converting your video to audio format, please wait...", event.threadID, event.messageID);
+      const { data } = await axios.get(attachment.url, { responseType: 'arraybuffer' });
+      fs.writeFileSync(outputFilePath, Buffer.from(data));
 
-      const audioReadStream = fs.createReadStream(__dirname + "/assets/vdtoau.m4a");
-      const msg = { body: "", attachment: [audioReadStream] };
-      api.sendMessage(msg, event.threadID, event.messageID);
-    } catch (e) {
-      console.log(e);
+      const audioReadStream = fs.createReadStream(outputFilePath);
+      const msg = { body: "Here is your converted audio:", attachment: [audioReadStream] };
+      await api.sendMessage(msg, event.threadID, event.messageID);
+
+      fs.unlinkSync(outputFilePath); 
+      console.log(`Audio file ${outputFileName} has been deleted.`);
+    } catch (error) {
+      api.sendMessage("An error occurred while processing your request. Please try again later.", event.threadID, event.messageID);
+      console.error("Error converting video to audio:", error);
     }
-  },
+  }
 };
