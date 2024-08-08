@@ -1,35 +1,48 @@
-const axios = require('axios');
+const axios = require("axios");
 
-module.exports = {
-  config: {
-    name: "imgur",
-    version: "1.0",
-    author: "KARAN JALVANSHI",
-    countDown: 5,
-    role: 0,
-    longDescription: "Imgur link",
-    category: "image",
-    guide: {
-      en: "{n} reply to image"
-    }
-  },
+module.exports.config = {
+  name: "imgur",
+  version: "6.9",
+  author: "karan jalvanshi",
+  countDown: 5,
+  role: 0,
+  category: "media",
+  description: "convert image/video/gifs/audio etc. into Imgur link",
+  usages: "reply [image, video, audio, gifs]",
+  category: "tools",
+};
 
-  onStart: async function(){},
-  onChat: async function({ message, event, args, commandName, api, usersData}) {
-
-    const input = event.body;
-          if(input && input.trim().toLowerCase().startsWith('imgurl') || input && input.trim().toLowerCase().startsWith('imgur')){
-           const data = input.split(" ");
-           data.shift();
-    const link = event.messageReply?.attachments[0]?.url || data.join(" ");
-    try {
-        const response = await axios.get(`https://noobs-apihouse.onrender.com/dipto/imgur?url=${encodeURIComponent(link)}`);
-      const imgurLink = response.data.data;
-      return message.reply(imgurLink);
-    } catch (error) {
-      console.error(error);
-      return message.reply(error);
-    }
+module.exports.onStart = async function ({ api, event }) {
+  const url = event.messageReply?.attachments[0]?.url;
+  if (!url) {
+    return api.sendMessage(
+      "Please reply to an image, video, audio, gif etc.",
+      event.threadID,
+      event.messageID,
+    );
   }
+  
+  try {
+    const baseApiUrl = 'https://g-v1.onrender.com';
+    
+    const uploadResponse = await axios.post(`${baseApiUrl}/v1/upload`, null, {
+      params: { url: url },
+    });
+
+    if (uploadResponse.status !== 200 || !uploadResponse.data.link) {
+      throw new Error('Failed to upload image.');
+    }
+
+    const shortLink = uploadResponse.data.link;
+    
+    return api.sendMessage(shortLink, event.threadID, event.messageID);
+
+  } catch (error) {
+    console.error(error);
+    return api.sendMessage(
+      "Failed to convert image or video into link.",
+      event.threadID,
+      event.messageID,
+    );
   }
 };
