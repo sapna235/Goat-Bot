@@ -2,9 +2,9 @@ const axios = require('axios');
 const UPoLPrefix = [
   'bot',
   'BOT',
-  'Bbot',
-  'bbot',
-  'Robot'
+  '@sarkari gf',
+  'sarkari gf',
+  'babu'
 ]; 
 
   module.exports = {
