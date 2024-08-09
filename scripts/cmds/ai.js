@@ -1,56 +1,57 @@
-const axios = require('axios');
+,cmd install ai.js const axios = require('axios');
+const UPoLPrefix = [
+  'bot',
+  'BOT',
+  'ai',
+  'BABY',
+  'Baby'
+]; 
 
-module.exports = {
+  module.exports = {
   config: {
-    name: 'Bot',
-    version: '1.0.1',
-    author: 'Karan jalvanshi',
+    name: 'ai',
+    version: '1.2.1',
     role: 0,
-    category: 'ai',
-    longDescription: {
-      en: 'This is a large AI language model trained by OpenAI, designed to assist with a wide range of tasks.',
-    },
-    guide: {
-      en: '',
-    },
+    category: 'AI',
+    author: 'KARAN JALVANSHI',
+    shortDescription: '',
+    longDescription: '',
   },
-  onStart: async ({ api, event, args }) => {
-    try {
-      const prompt = args.join(' ');
-      const response = await axios.get(`https://king-aryanapis.onrender.com/api/chatgpt?prompt=${encodeURIComponent(prompt)}`);
+  
+  onStart: async function () {},
+  onChat: async function ({ message, event, args, api, threadID, messageID }) {
+      
+      const ahprefix = UPoLPrefix.find((p) => event.body && event.body.toLowerCase().startsWith(p));
+      if (!ahprefix) {
+        return; 
+      } 
+      
+     const upol = event.body.substring(ahprefix.length).trim();
+   if (!upol) {
+        await message.reply('Are age bhi bolo baby');
+        return;
+      }
+      
+      const apply = ['Awww🥹, maybe you need my help', 'How can i help you?', 'How can i assist you today?', 'How can i help you?🙂'];
+      
+     const randomapply = apply[Math.floor(Math.random() * apply.length)];
 
-      if (response.status !== 200 || !response.data) throw new Error('Invalid or missing response from API');
+     
+      if (args[0] === 'hi') {
+          message.reply(`${randomapply}`);
+          return;
+      }
+      
+    const encodedPrompt = encodeURIComponent(args.join(" "));
 
-      const answer = response.data.answer;
-      api.sendMessage(answer, event.threadID, (err, info) => {
-        if (err) return console.error(err);
-        global.GoatBot.onReply.set(info.messageID, { commandName: module.exports.config.name, messageID: info.messageID, author: event.senderID });
-      });
-    } catch (error) {
-      console.error(error);
-      api.sendMessage("ðŸš§ | An error occurred while processing your request.", event.threadID);
-    }
-  },
+   await message.reply('😒😒');
+  
+    const response = await axios.get(`https://sandipbaruwal.onrender.com/gemini?prompt=${encodedPrompt}`);
+ 
+     const UPoL = response.data.answer; 
 
-  onReply: async ({ api, event, Reply }) => {
-    const { author } = Reply;
-
-    if (event.senderID !== author) return;
-
-    try {
-      const userReply = event.body.trim();
-      const response = await axios.get(`https://king-aryanapis.onrender.com/api/chatgpt?prompt=${encodeURIComponent(userReply)}`);
-
-      if (response.status !== 200 || !response.data) throw new Error('Invalid or missing response from API');
-
-      const followUpAnswer = response.data.answer;
-      api.sendMessage(followUpAnswer, event.threadID, (err, info) => {
-        if (err) return console.error(err);
-        global.GoatBot.onReply.set(info.messageID, { commandName: module.exports.config.name, messageID: info.messageID, author: event.senderID });
-      });
-    } catch (error) {
-      console.error(error);
-      api.sendMessage("ðŸš§ | An error occurred while processing your reply.", event.threadID);
-    }
+      const upolres = `${UPoL}`;
+      
+        message.reply(upolres);
   }
 };
