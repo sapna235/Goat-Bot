@@ -6,7 +6,7 @@ module.exports = {
 	config: {
 		name: "welcome",
 		version: "1.7",
-		author: "NTKhang",
+		author: "Karan jalvanshi",
 		category: "events"
 	},
 
@@ -22,14 +22,14 @@ module.exports = {
 			defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
 		},
 		en: {
-			session1: "morning",
-			session2: "noon",
-			session3: "afternoon",
-			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
+			session1: "Good morning",
+			session2: "Good noon",
+			session3: "Good afternoon",
+			session4: "Good evening",
+			welcomeMessage: "मुझे ग्रुप मे जोड़ने के लिए धन्यवाद 🪽\n मे साहिल और करन जलवंशी द्वारा बनाई हुई Ai Chatbot हु 😈🪽 \n मुझे इस्तेमाल करने के लिए मेरा PREFIX [[ , ]] इसे लगाके COMMAND और HELP लिख सकते है || इसके अलावा मेरे OWNER से बात KARE😈🦋",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			defaultWelcomeMessage: `{userName}.\n स्वागत 🪽है  तुम्हारा  {multiple} : {boxName}\nमस्ती करते रहो {session} `
 		}
 	},
 
