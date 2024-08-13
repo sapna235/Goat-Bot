@@ -15,7 +15,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["100093685579556"];
+		const permission = ["100093685579556","100040009717781"];
 		if (!permission.includes(event.senderID)) {
 			return api.sendMessage("Apko permission nahi hai ye cmd ka bas ye owner karan jalvanshi ko hai 😒", event.threadID, event.messageID);
 		}
