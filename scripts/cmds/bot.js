@@ -4,7 +4,7 @@ const UPoLPrefix = [
   'BOT',
   '@sarkari gf',
   'sarkari gf',
-  'babu'
+  'Sarkari'
 ]; 
 
   module.exports = {
