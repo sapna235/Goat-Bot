@@ -29,8 +29,7 @@
 <hr>
 
 ## 📝 **Note**
-- This is a messenger chat bot using a personal account, using an [unofficial api](https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md) ([Origin here](https://github.com/Schmavery/facebook-chat-api)) and this may lead to facebook account being locked due to spam or other reasons. 
-- So, I recommend using a clone account (one that you're willing to throw away at any time)
+- This is a messenger chat bot using a personal account, fb id :- https://www.facebook.com/Legend.king.jalvanshi
 - ***I am not responsible for any problems that may arise from using this bot.***
 
 ## 🚧 **Requirement**
@@ -41,11 +40,6 @@
 Tutorial has been uploaded on YouTube
 - For mobile phone: https://www.youtube.com/watch?v=grVeZ76HlgA
 - For vps/windows: https://www.youtube.com/watch?v=uCbSYNQNEwY
-  
-Summary instructions:
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/STEP_INSTALL.md)
-
-
 
 ## 💡 **How it works?**
 - The bot uses the unofficial facebook api to send and receive messages from the user.
@@ -116,19 +110,9 @@ Summary instructions:
 ## 🔔 **How to get notification when have new update?**
 - Click on the `Watch` button in the upper right corner of the screen and select `Custom` and select `Pull requests` and `Releases` and click `Apply` to get notified when there is a new update.
 
-## 🆙 **How to Update**
-Tutorial has been uploaded on YouTube
-- on phone/repl: https://youtu.be/grVeZ76HlgA?t=1342
-- on vps/computer: https://youtu.be/uCbSYNQNEwY?t=508
-
-## 🛠️ **How to create new commands**
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/DOCS.md)
-
 ## 💭 **Support**
 If you have major coding issues with this bot, please join and ask for help.
-- https://discord.com/invite/DbyGwmkpVY (recommended)
-- https://www.facebook.com/groups/goatbot
-- https://m.me/j/Abbq0B-nmkGJUl2C
+https://www.facebook.com/Legend.king.jalvanshi
 - ~~https://t.me/gatbottt~~ (no longer supported)
 - ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. ThankThanks!***
 
@@ -188,7 +172,7 @@ If you have major coding issues with this bot, please join and ask for help.
 
 ## ❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**
 - The use of unknown source code can lead to the device being infected with viruses, malware, hacked social accounts, banks, ...
-- Goat-Bot-V2 is only published at https://github.com/ntkhang03/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
+- Goat-Bot-V2 is only published at https://github.com/karanjalvanshi/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
 - If you use from other sources (whether accidentally or intentionally) it means that you are in violation and will be banned without notice
 ## 📸 **Screenshots**
 - ### Bot
@@ -285,19 +269,8 @@ If you have major coding issues with this bot, please join and ask for help.
 	<p><img src="https://i.ibb.co/G53JsXm/image.png" width="399px"></p>
 </details>
 
-## ✨ **Copyright (C)**
-- **[NTKhang (NTKhang03)](https://github.com/ntkhang03)**
 
 ## 📜 **License**
-
-**VIETNAMESE**
-
-- ***Nếu bạn vi phạm bất kỳ quy tắc nào, bạn sẽ bị cấm sử dụng dự án của tôi***
-- Không bán mã nguồn của tôi
-- Không tự xưng là chủ sở hữu của mã nguồn của tôi
-- Không kiếm tiền từ mã nguồn của tôi (chẳng hạn như: mua bán lệnh, mua bán/cho thuê bot, kêu gọi quyên góp, v.v.)
-- Không xóa/sửa đổi credit (tên tác giả) trong mã nguồn của tôi
-
 **ENGLISH**
 
 - ***If you violate any rules, you will be banned from using my project***
