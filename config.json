@@ -17,21 +17,21 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100093685579556",
-    "100040009717781",
-    "7986823578029167"
+    "100034049240014",
+    "61559958515207",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "KARAN JALVANSHI",
+  "OWNER": "Suheb khan",
   "AGE": "20",
   "GENDER": "MALE",
-  "nickNameBot": "Sarkari gf",
-  "FACEBOOK": "https://www.facebook.com/Legend.king.jalvanshi",
-  "prefix": ",",
+  "nickNameBot": "𝗕𝗢𝗧 𝗞𝗜𝗡𝗚 [.]",
+  "FACEBOOK": "https://www.facebook.com/Suhebkhanjiii",
+  "prefix": ".",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
