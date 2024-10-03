@@ -18,8 +18,8 @@ module.exports = {
         envConfig: {}
     },
     onStart: async function ({ message }) {
-        const botName = "Sarkari gf";
-        const botPrefix = "[ , ]";
+        const botName = "𝐁𝐎𝐓 𝐊𝐈𝐍𝐆 ";
+        const botPrefix = "[ . ]";
         const now = moment().tz('asia/kolkata');
         const date = now.format('MMMM Do YYYY');
         const time = now.format('h:mm:ss A');
@@ -30,11 +30,11 @@ module.exports = {
         const days = Math.floor(uptime / (60 * 60 * 24));
         const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
-        const oname = `karan jalvanshi`;
-        const age = `20`;
+        const oname = `𝐒𝐔𝐇𝐄𝐁 𝐊𝐇𝐀𝐍`;
+        const age = `22`;
         const phone = `87990***40`;
         const stats = `single`;
-        const fb = `https://www.facebook.com/Legend.king.jalvanshi`;
+        const fb = `https://www.facebook.com/suhebkhanjii`;
 
         const cpu = os.cpus()[0].model;
         const cores = os.cpus().length;
