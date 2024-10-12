@@ -104,13 +104,18 @@ module.exports.onLoad = async ({ api }) => {
 
       message: "𝚃𝚑𝚒𝚜 𝚒𝚜 𝙰𝚞𝚝𝚘 𝚜𝚎𝚗𝚍 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚎𝚟𝚎𝚛𝚢 𝟻𝚖𝚒𝚗𝚞𝚝𝚎𝚜:\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛/𝚊𝚍𝚖𝚒𝚗 𝚊𝚌𝚌𝚘𝚞𝚗𝚝: https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
 
-      }
+      },
 
-    // Add more messages for other times as needed
+     "11:12:00 PM": {
+    message: "Good night 😪😪"
 
-  };
+     },
 
-
+     "11:10:00 PM": {
+       message: "Good night 😪😪"
+       
+      },
+    
   const checkTimeAndSendMessage = () => {
 
     const now = moment().tz('Asia/kolkata');
