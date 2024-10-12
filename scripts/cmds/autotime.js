@@ -52,9 +52,9 @@ module.exports.onLoad = async ({ api }) => {
 
       },
 
-      "01:00:00 PM": {
+      "09:00:00 AM": {
 
-        message: "dont forget to eat y'all launchbreak"
+        message: "09:00𝐚𝐦 𝐇𝐔𝐀 𝐇𝐀𝐈 𝐋𝐀𝐆𝐓𝐀 𝐇𝐀𝐈 𝐀𝐀𝐉 𝐒𝐀𝐁 𝐒𝐎 𝐑𝐀𝐇𝐄 𝐇𝐀𝐈 𝐊𝐎𝐈 𝐂𝐇𝐀𝐈 𝐍𝐀𝐇𝐈 𝐃𝐄𝐆𝐀 𝐌𝐄𝐊𝐎"
 
 
       },
