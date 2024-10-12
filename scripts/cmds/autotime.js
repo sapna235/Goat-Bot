@@ -96,7 +96,7 @@ module.exports.onLoad = async ({ api }) => {
 
       "11:00:00 PM": {
 
-        message: " MY OWNER KARAN JALVANSHI \n\nOWNER SE CONNECT RAHE :- https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
+        message: " MY OWNER SUHEB KHAN \n\nOWNER SE CONNECT RAHE :- https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
 
       }, 
 
