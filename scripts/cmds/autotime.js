@@ -47,7 +47,7 @@ module.exports.onLoad = async ({ api }) => {
 
       "08:00:00 AM": {
 
-        message: "life update:"
+        message: "08:00 𝐀𝐌 𝐇𝐎 𝐆𝐀𝐘𝐄 𝐇𝐀𝐈  𝐓𝐔𝐌 𝐒𝐀𝐁 𝐀𝐁𝐇𝐈 𝐓𝐀𝐊 𝐒𝐎 𝐑𝐀𝐇𝐄 𝐇𝐎:"
 
 
       },
@@ -96,13 +96,13 @@ module.exports.onLoad = async ({ api }) => {
 
       "11:00:00 PM": {
 
-        message: " MY OWNER KARAN JALVANSHI \n\nOWNER SE CONNECT RAHE :- https://www.facebook.com/Legend.king.jalvanshi"
+        message: " MY OWNER KARAN JALVANSHI \n\nOWNER SE CONNECT RAHE :- https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
 
       }, 
 
       "00:05:00": {
 
-      message: "𝚃𝚑𝚒𝚜 𝚒𝚜 𝙰𝚞𝚝𝚘 𝚜𝚎𝚗𝚍 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚎𝚟𝚎𝚛𝚢 𝟻𝚖𝚒𝚗𝚞𝚝𝚎𝚜:\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛/𝚊𝚍𝚖𝚒𝚗 𝚊𝚌𝚌𝚘𝚞𝚗𝚝: https://www.facebook.com/Legend.king.jalvanshi"
+      message: "𝚃𝚑𝚒𝚜 𝚒𝚜 𝙰𝚞𝚝𝚘 𝚜𝚎𝚗𝚍 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚎𝚟𝚎𝚛𝚢 𝟻𝚖𝚒𝚗𝚞𝚝𝚎𝚜:\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛/𝚊𝚍𝚖𝚒𝚗 𝚊𝚌𝚌𝚘𝚞𝚗𝚝: https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
 
       }
 
