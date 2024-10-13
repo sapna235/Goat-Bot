@@ -17,20 +17,20 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100034049240014",
-    "61559958515207",
-    "8066643880067913"
+    "100027055397691",
+    "",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Suheb khan",
+  "OWNER": "Mr Aaryan",
   "AGE": "20",
   "GENDER": "MALE",
-  "nickNameBot": "𝗕𝗢𝗧 𝗞𝗜𝗡𝗚 [.]",
-  "FACEBOOK": "https://www.facebook.com/Suhebkhanjiii",
+  "nickNameBot": "𝐁𝐚𝐥𝐚𝐦 𝐉𝐢",
+  "FACEBOOK": "https://www.facebook.com/MR.AARYAN.HERE",
   "prefix": ".",
   "database": {
     "type": "sqlite",
