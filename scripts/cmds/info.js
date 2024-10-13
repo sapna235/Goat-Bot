@@ -18,7 +18,7 @@ module.exports = {
         envConfig: {}
     },
     onStart: async function ({ message }) {
-        const botName = "𝐁𝐎𝐓 𝐊𝐈𝐍𝐆 ";
+        const botName = "𝐁𝐀𝐋𝐀𝐌 𝐉𝐈";
         const botPrefix = "[ . ]";
         const now = moment().tz('asia/kolkata');
         const date = now.format('MMMM Do YYYY');
@@ -30,11 +30,11 @@ module.exports = {
         const days = Math.floor(uptime / (60 * 60 * 24));
         const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
-        const oname = `𝐒𝐔𝐇𝐄𝐁 𝐊𝐇𝐀𝐍`;
+        const oname = `𝐌𝐑..𝐀𝐀𝐑𝐘𝐀𝐍`;
         const age = `22`;
-        const phone = `87990***40`;
+        const phone = `9664945791`;
         const stats = `single`;
-        const fb = `https://www.facebook.com/suhebkhanjii`;
+        const fb = `https://www.facebook.com/MR.AARYAN.HERE`;
 
         const cpu = os.cpus()[0].model;
         const cores = os.cpus().length;
@@ -52,8 +52,8 @@ module.exports = {
 
         // Initialize link with a placeholder or handle properly based on your requirements
         const links = [
-            "https://i.imgur.com/Qu4ADBX.jpeg",
-            "https://i.imgur.com/h0EtC6w.jpeg"
+            "https://i.ibb.co/jgk6rB0/7ce2390636d1a46a331662dbaaf693d6.jpg",
+            "https://i.ibb.co/jgk6rB0/7ce2390636d1a46a331662dbaaf693d6.jpg"
         ];
         const link = links[Math.floor(Math.random() * links.length)];
 
