@@ -14,8 +14,8 @@ module.exports = {
  onChat: async function({ event, message, getLang }) {
  if (event.body && event.body.toLowerCase() === "admin") {
  return message.reply({
- body: "𝐎𝐖𝐍𝐄𝐑 𝐍𝐀𝐌𝐄 :- 𝐊𝐀𝐑𝐀𝐍 𝐉𝐀𝐋𝐕𝐀𝐍𝐒𝐇𝐈\n\n𝐅𝐁 𝐈𝐃 :- https://www.facebook.com/Legend.king.jalvanshi",
- attachment: await global.utils.getStreamFromURL("http://g-v1.onrender.com/1hOXgYjqa.jpg")
+ body: "𝐎𝐖𝐍𝐄𝐑 𝐍𝐀𝐌𝐄 :- 𝐌𝐑..𝐀𝐀𝐑𝐘𝐀𝐍\n\n𝐅𝐁 𝐈𝐃 :- https://www.facebook.com/MR.AARYAN.HERE",
+ attachment: await global.utils.getStreamFromURL("http://g-v1.onreder.com/1hOXgYjqa.jpg")
  });
  }
  }
