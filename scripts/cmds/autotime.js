@@ -96,13 +96,13 @@ module.exports.onLoad = async ({ api }) => {
 
       "11:00:00 PM": {
 
-        message: " MY OWNER SUHEB KHAN \n\nOWNER SE CONNECT RAHE :- https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
+        message: " MY OWNER 𝐌𝐑..𝐀𝐀𝐑𝐘𝐀𝐍 \n\nOWNER SE CONNECT RAHE :- https://www.facebook.com/MR.AARYAN.HERE"
 
       }, 
 
       "00:05:00": {
 
-      message: "𝚃𝚑𝚒𝚜 𝚒𝚜 𝙰𝚞𝚝𝚘 𝚜𝚎𝚗𝚍 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚎𝚟𝚎𝚛𝚢 𝟻𝚖𝚒𝚗𝚞𝚝𝚎𝚜:\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛/𝚊𝚍𝚖𝚒𝚗 𝚊𝚌𝚌𝚘𝚞𝚗𝚝: https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL"
+      message: "𝚃𝚑𝚒𝚜 𝚒𝚜 𝙰𝚞𝚝𝚘 𝚜𝚎𝚗𝚍 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚎𝚟𝚎𝚛𝚢 𝟻𝚖𝚒𝚗𝚞𝚝𝚎𝚜:\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛/𝚊𝚍𝚖𝚒𝚗 𝚊𝚌𝚌𝚘𝚞𝚗𝚝: https://www.facebook.com/MR.AARYAN.HERE"
 
       },
 
